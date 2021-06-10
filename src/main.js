@@ -3,16 +3,18 @@ import App from './App.vue'
 import router from './router'
 import firebase from 'firebase'
 
+require('dotenv').config()
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyDW35Blgs_WnT7RmGkROa9CJa0weQ4kjfE',
-  authDomain: 'deus-barbershop.firebaseapp.com',
-  databaseURL: 'https://deus-barbershop-default-rtdb.firebaseio.com',
-  projectId: 'deus-barbershop',
-  storageBucket: 'deus-barbershop.appspot.com',
-  messagingSenderId: '86845186517',
-  appId: '1:86845186517:web:58d942c987434cc02b9d5c',
-  measurementId: 'G-7PHBBREP8N',
+  apiKey: process.env.VUE_APP_APIKEY,
+  authDomain: process.env.VUE_APP_AUTHDOMAIN,
+  databaseURL: process.env.VUE_APP_DATABASEURL,
+  projectId: process.env.VUE_APP_PROJECTID,
+  storageBucket: process.env.VUE_APP_STORAGEBUCKER,
+  messagingSenderId: process.env.VUE_APP_MESSAGINSENDERID,
+  appId: process.env.VUE_APP_APPID,
+  measurementId: process.env.VUE_APP_MEASUREMENTID,
 }
 
 firebase.initializeApp(firebaseConfig)

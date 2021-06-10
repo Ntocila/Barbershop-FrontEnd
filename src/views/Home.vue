@@ -52,7 +52,7 @@
 <script>
 import { ref, onBeforeMount } from 'vue'
 import firebase from 'firebase'
-import GetAppointments from '@/Getters/GetAppointments'
+import GetAppointments from '@/components/GetAppointments'
 import image from '../assets/logo.png'
 
 export default {

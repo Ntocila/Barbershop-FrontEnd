@@ -99,7 +99,7 @@ td {
   justify-content: space-between;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: #ffffff;
+  color: #353535;
   border: none;
 }
 h1 {

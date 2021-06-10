@@ -25,12 +25,12 @@ const routes = [
   {
     path: '/GetAppointments',
     name: 'getAppointments',
-    component: () => import('../Getters/GetAppointments.vue'),
+    component: () => import('../components/GetAppointments.vue'),
   },
   {
     path: '/GetCustomers',
     name: 'getCustomers',
-    component: () => import('../Getters/GetCustomers.vue'),
+    component: () => import('../components/GetCustomers.vue'),
   },
   {
     path: '/forgot-password',

@@ -53,9 +53,9 @@
 </template>
 
 <script>
-import GetServices from '@/Getters/GetServices'
+import GetServices from '@/components/GetServices'
 // import Time from 'vue3-timepicker'
-import 'vue3-timepicker/dist/VueTimepicker.css'
+// import 'vue3-timepicker/dist/VueTimepicker.css'
 import axios from 'axios'
 
 export default {
